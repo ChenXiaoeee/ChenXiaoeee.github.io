@@ -1,0 +1,86 @@
+
+# 基础站点设置
+baseURL = "https://ChenXiaoeee.github.io/"
+languageCode = "zh-CN"
+title = "czn父亲的网站"
+theme = "stack"
+
+# 启用草稿预览（开发时用 hugo server -D，发布时保持 false）
+buildDrafts = false
+
+[params]
+
+  # 网站副标题
+  subtitle = "专注于挂入"
+  # 作者信息
+  author = "czn父亲"
+  # 网站图标
+  favicon = "/favicon.ico"
+  # 首页显示的文章类型（核心配置，确保文章能显示）
+  mainSections = ["posts"]
+  # 显示阅读时间
+  readingTime = true
+  # 显示分享按钮
+  shareButtons = true
+  # 显示作者信息卡片
+  authorWidget = true
+  # 显示目录
+  toc = true
+  # 社交链接（替换成你的真实链接）
+  socialItems = [
+    { name = "GitHub", url = "https://github.com/chenxiao" },
+    { name = "Twitter", url = "" },
+    { name = "Email", url = "csu-chenxiao@qq.com" }
+  ]
+  
+
+  # 👇 这一段必须放在 [params] 的外面，作为顶级配置 👇
+[params.sidebar]
+emoji = "🤣"
+avatar="img/avatar.png"
+
+  # 新增：代码块复制按钮（技术博客必备）
+  copyCodeButton = true
+  # 新增：浅色/深色模式切换
+ 
+
+
+# 顶部导航菜单
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "首页"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 2
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 3
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 4
+
+# 代码高亮配置（技术博客重点）
+[markup.highlight]
+  codeFences = true
+  style = "dracula"       # 代码主题，可选: monokai, github, dracula
+  lineNos = true           # 显示行号
+  lineNumbersInTable = true
+  noClasses = false        # 使用 CSS 类而非内联样式，便于自定义
+
+# Markdown 渲染增强（支持 HTML、表格等）
+[markup.goldmark.renderer]
+  unsafe = true  # 允许在 Markdown 中嵌入 HTML（如视频、卡片）
+
+# 分页设置
+[pagination]
+  pagerSize = 10  # 每页显示 10 篇文章
+

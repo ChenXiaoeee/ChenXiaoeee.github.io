@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Hugo1 on czn父亲的网站</title>
+        <link>http://localhost:1313/tags/hugo1/</link>
+        <description>Recent content in Hugo1 on czn父亲的网站</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-CN</language>
+        <lastBuildDate>Thu, 12 Feb 2026 15:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/hugo1/index.xml" rel="self" type="application/rss+xml" /><item>
+            <title>我的第一篇博客</title>
+            <link>http://localhost:1313/posts/firstpost/</link>
+            <pubDate>Thu, 12 Feb 2026 15:00:00 +0800</pubDate>
+            <guid>http://localhost:1313/posts/firstpost/</guid>
+            <description>&lt;p&gt;这是我用 Hugo + Stack 主题搭建的第一篇博客文章！&lt;/p&gt;&#xA;</description>
+        </item></channel>
+</rss>
