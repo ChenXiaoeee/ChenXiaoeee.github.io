@@ -37,6 +37,6 @@ if %errorlevel% neq 0 (
 
 echo.
 echo ========================================
-echo 部署成功！🎉
-echo 你的博客已更新到 GitHub Pages。
+echo Deployment succeeded! 🎉
+echo Your blog has been updated to GitHub Pages.
 pause
