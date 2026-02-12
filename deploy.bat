@@ -1,36 +1,39 @@
 @echo off
+chcp 65001 >nul
+setlocal enabledelayedexpansion
+
 echo ========================================
-echo 正在生成静态文件...
+echo Generating static files...
 hugo
 if %errorlevel% neq 0 (
-    echo 错误：生成静态文件失败！
+    echo ERROR: Failed to generate static files!
     pause
     exit /b 1
 )
 
 echo.
-echo 正在添加更改到 Git...
+echo Adding changes to Git...
 git add .
 if %errorlevel% neq 0 (
-    echo 错误：git add 失败！
+    echo ERROR: git add failed!
     pause
     exit /b 1
 )
 
 echo.
-echo 正在提交更改...
-git commit -m "自动部署：%date:~0,4%-%date:~5,2%-%date:~8,2% %time:~0,8%"
+echo Committing changes...
+git commit -m "Auto deploy: %date:~0,4%-%date:~5,2%-%date:~8,2% %time:~0,8%"
 if %errorlevel% neq 0 (
-    echo 错误：git commit 失败！
+    echo ERROR: git commit failed!
     pause
     exit /b 1
 )
 
 echo.
-echo 正在推送到 GitHub...
+echo Pushing to GitHub...
 git push origin main
 if %errorlevel% neq 0 (
-    echo 错误：git push 失败！
+    echo ERROR: git push failed!
     pause
     exit /b 1
 )
