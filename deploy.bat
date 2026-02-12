@@ -42,4 +42,5 @@ echo.
 echo ========================================
 echo Deployment succeeded! 🎉
 echo Your blog has been updated to GitHub Pages.
+成功！
 pause
