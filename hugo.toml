@@ -2,7 +2,7 @@
 # 基础站点设置
 baseURL = "https://ChenXiaoeee.github.io/"
 languageCode = "zh-CN"
-title = "czn父亲的网站"
+title = "cx的个人博客"
 theme = "stack"
 
 # 启用草稿预览（开发时用 hugo server -D，发布时保持 false）
@@ -11,9 +11,9 @@ buildDrafts = false
 [params]
 
   # 网站副标题
-  subtitle = "专注于挂入"
+  subtitle = "日常随记"
   # 作者信息
-  author = "czn父亲"
+  author = "陈潇"
   # 网站图标
   favicon = "/favicon.ico"
   # 首页显示的文章类型（核心配置，确保文章能显示）
@@ -36,7 +36,7 @@ buildDrafts = false
 
   # 👇 这一段必须放在 [params] 的外面，作为顶级配置 👇
 [params.sidebar]
-emoji = "🤣"
+emoji = "🐟"
 avatar="img/avatar.png"
 
   # 新增：代码块复制按钮（技术博客必备）
