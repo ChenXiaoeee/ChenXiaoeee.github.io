@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>cx的个人博客</title>
-        <link>https://ChenXiaoeee.github.io/</link>
-        <description>Recent content on cx的个人博客</description>
+        <title>随记 on cx的个人博客</title>
+        <link>https://ChenXiaoeee.github.io/categories/%E9%9A%8F%E8%AE%B0/</link>
+        <description>Recent content in 随记 on cx的个人博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-CN</language>
-        <lastBuildDate>Tue, 17 Feb 2026 00:35:00 +0000</lastBuildDate><atom:link href="https://ChenXiaoeee.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 17 Feb 2026 00:35:00 +0000</lastBuildDate><atom:link href="https://ChenXiaoeee.github.io/categories/%E9%9A%8F%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>第一篇博客</title>
             <link>https://ChenXiaoeee.github.io/posts/2026-02-17-%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
             <pubDate>Tue, 17 Feb 2026 00:35:00 +0000</pubDate>
